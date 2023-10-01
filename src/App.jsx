@@ -24,7 +24,9 @@ function App() {
           <p className="text-lg text-black font-semibold">Mark Jamey</p>
           <p className="text-slate-500 font-medium">Product Enginner</p>
         </div>
-        <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent">Message</button>
+        <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent">
+          Message
+        </button>
       </div>
     </div>
   );
