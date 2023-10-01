@@ -1,20 +1,33 @@
 import React from 'react';
 
 function App() {
-	return (
-		<div className='flex items-center justify-center w-screen h-screen bg-gray-900 '>
-			<div className='w-3/12 p-6 mx-auto space-y-10 text-center bg-gray-800 rounded'>
-				<h1 className='text-4xl text-white'>Vite + React + Tailwind</h1>
-				<p className='text-2xl text-blue-300'>It's working</p>
-				<a
-					href='https://github.com/moinulmoin/vite-react-tailwind-starter'
-					className='block text-3xl text-blue-300 underline'
-				>
-					⭐Star the repo if it helped you! :)
-				</a>
-			</div>
-		</div>
-	);
+  return (
+    <div
+      className="py-8 px-8
+	max-w-sm
+	mx-auto
+	rounded-xl
+	shadow-lg
+	space-y-2
+	sm:py-4
+	sm:items-center
+	sm:space-y-0
+	sm:space-x-6"
+    >
+      <img
+        className="block mx-auto h-24 rounded-full sm:shrink-0"
+        src="https://randomuser.me/api/portraits/men/19.jpg"
+        alt="profile"
+      />
+      <div className="text-center space-y-2 sm:text-left">
+        <div className="space-y-0.5">
+          <p className="text-lg text-black font-semibold">Mark Jamey</p>
+          <p className="text-slate-500 font-medium">Product Enginner</p>
+        </div>
+        <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent">Message</button>
+      </div>
+    </div>
+  );
 }
 
 export default App;
